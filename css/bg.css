@@ -12,7 +12,7 @@
 
 /* general  for subheader */
 #subheader {
-  background: url(../images/background/subheader.jpg) top fixed;
+  background: url(../images/background/subheader-9.jpg) top fixed;
 }
 
 /* background settings for page subheader */
@@ -23,7 +23,7 @@
   background-image: url(../images/background/subheader-1b.jpg);
 }
 .page-services #subheader {
-  background-image: url(../images/background/subheader-2.jpg);
+  background-image: url(../images/background/subheader-9.jpg);
 }
 .page-about #subheader {
   background-image: url(../images/background/subheader-3.jpg);
@@ -252,9 +252,9 @@
 #section-service-1.side-bg .background-image {
   background: url(../images/background/bg-service-1.jpg);
 }
-#section-service-2.side-bg .background-image {
+/* #section-service-2.side-bg .background-image {
   background: url(../images/background/bg-service-2.jpg);
-}
+} */
 #section-service-3.side-bg .background-image {
   background: url(../images/background/bg-service-3.jpg);
 }
@@ -274,7 +274,7 @@
   background-image: url(../images/background/subheader-1-sn.jpg);
 }
 .de-navbar-left.de_light.page-services #subheader {
-  background-image: url(../images/background/subheader-2-sn.jpg);
+  background-image: url(../images/background/subheader-9.jpg);
 }
 .de-navbar-left.de_light.page-about #subheader {
   background-image: url(../images/background/subheader-3-sn.jpg);
