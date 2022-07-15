@@ -77,6 +77,20 @@
 
     <!-- custom font -->
     <link rel="stylesheet" href="css/font-style-2.css" type="text/css" />
+    <script type="text/javascript" src="js/script.js"></script>
+    <!-- Email JS code -->
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    <!-- Email JS public Key -->
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_dbpfXnd1FYJjGT26FzGe6");
+      })();
+    </script>
   </head>
 
   <body class="de_light page-contact">
@@ -184,7 +198,8 @@
 
       <!-- content begin -->
       <div id="content" class="no-top">
-        <section id="de-map" class="no-top" aria-label="map-container">
+        <br />
+        <!-- <section id="de-map" class="no-top" aria-label="map-container">
           <div class="map-container map-fullwidth">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.7152203584424!2d-118.2453181849353!3d34.05117548060617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c648d9808fbd%3A0xb79dfbc6ae338c12!2s100%20S%20Main%20St%2C%20Los%20Angeles%2C%20CA%2090012%2C%20USA!5e0!3m2!1sen!2sid!4v1592143290578!5m2!1sen!2sid"
@@ -197,7 +212,7 @@
               tabindex="0"
             ></iframe>
           </div>
-        </section>
+        </section> -->
 
         <div class="container">
           <div class="row">
@@ -215,7 +230,7 @@
                       <input
                         type="text"
                         name="Name"
-                        id="name"
+                        id="fromName"
                         class="form-control"
                         placeholder="Your Name"
                         required
@@ -229,7 +244,7 @@
                       <input
                         type="email"
                         name="Email"
-                        id="email"
+                        id="fromEmail"
                         class="form-control"
                         placeholder="Your Email"
                         required
@@ -243,11 +258,38 @@
                       <input
                         type="text"
                         name="phone"
-                        id="phone"
+                        id="fromPhone"
                         class="form-control"
                         placeholder="Your Phone"
                         required
                       />
+                    </div>
+                    <div>
+                      Who will be funding your studies?<br />
+                      <input type="radio" name="funding" id="studies" />
+                      Myself
+                      <input type="radio" name="funding" id="studies" />
+                      Parents
+                      <input type="radio" name="funding" id="studies" />
+                      Partial scholarship
+                    </div>
+                    <br /><br />
+                    <div>
+                      What level of education are you looking into?<br />
+                      <input type="radio" name="funding" id="studies" />
+                      Foundation
+                      <input type="radio" name="funding" id="studies" />
+                      Undergraduate
+                      <input type="radio" name="funding" id="studies" />
+                      Post Graduate
+                    </div>
+                    <br /><br />
+                    <div>
+                      Have you got a valid passport?<br />
+                      <input type="checkbox" name="funding" id="studies" />
+                      Yes
+                      <input type="checkbox" name="funding" id="studies" />
+                      No
                     </div>
                   </div>
                   <div class="col-md-6">
@@ -257,7 +299,7 @@
                     <div>
                       <textarea
                         name="message"
-                        id="message"
+                        id="msg"
                         class="form-control"
                         placeholder="Your Message"
                         required
@@ -270,7 +312,7 @@
                       class="g-recaptcha"
                       data-sitekey="6LfHDjsdAAAAANyZQJeyAUNIjTPCB-5PodXpdloe"
                     ></div>
-                    <p id="submit" class="mt20">
+                    <p onclick="sendMail()" id="submit" class="mt20">
                       <input
                         type="submit"
                         id="send_message"
