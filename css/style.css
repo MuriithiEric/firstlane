@@ -11,7 +11,7 @@
 * sidebar
 * blog
 * products
-* contact
+* Apply
 * coming soon page
 * elements
 	* address
@@ -2049,7 +2049,7 @@ left: 0;
 }
 
 /* ================================================== */
-/* contact form */
+/* Apply form */
 /* ================================================== */
 	.error {
 	padding:20px;
@@ -2075,7 +2075,7 @@ left: 0;
 	width: 98%;
 	}
 	
-	#contact_form input[type=text],#contact_form textarea,#contact_form input[type=email],#contact_form input[type=number],#search, #contact_form select{
+	#Apply_form input[type=text],#Apply_form textarea,#Apply_form input[type=email],#Apply_form input[type=number],#search, #Apply_form select{
 	padding:10px;
 	margin-bottom:20px;
 	color:#fff;
@@ -2085,7 +2085,7 @@ left: 0;
 	height:auto;
 	}
 
-	.de_light #contact_form input[type=text],.de_light #contact_form textarea,.de_light #contact_form input[type=email], .de_light #search, 	.de_light #contact_form select
+	.de_light #Apply_form input[type=text],.de_light #Apply_form textarea,.de_light #Apply_form input[type=email], .de_light #search, 	.de_light #Apply_form select
 		{
 		border-radius: 5px !important;
 		-moz-border-radius: 5px !important;
@@ -2096,34 +2096,34 @@ left: 0;
 		}
 
 
-	#contact_form select{
+	#Apply_form select{
 		background: url(../images/ui/select-arrow.png) right center no-repeat !important;
 	}
 
-	#contact_form select option{
+	#Apply_form select option{
 		color: #000000;
 	}
 
-	.de_light #contact_form select{
+	.de_light #Apply_form select{
 		background: url(../images/ui/select-arrow-invert.png) right center no-repeat !important;
 	}
 	
 	
-	#contact_form input[placeholder],#contact_form textarea[placeholder]{
+	#Apply_form input[placeholder],#Apply_form textarea[placeholder]{
 	color:#eee;
 	}
 	
-	#contact_form input[type=submit].btn-line{
+	#Apply_form input[type=submit].btn-line{
 	background:none;
 	padding:8px 20px;
 	}
 	
-	#contact_form input[type=submit].btn-line:hover{
+	#Apply_form input[type=submit].btn-line:hover{
 	background:#111;
 	border-color:#111;
 	}
 	
-	#contact_form textarea{
+	#Apply_form textarea{
 	height:178px;
 	}
 	
@@ -2989,8 +2989,8 @@ left: 0;
 		-webkit-border-radius: 5px;
 	}
 
-	#contact_form input[type="radio"] + label, 
-	#contact_form input[type="checkbox"] + label {
+	#Apply_form input[type="radio"] + label, 
+	#Apply_form input[type="checkbox"] + label {
 		margin-right: 10px;
 	}
 	
@@ -3020,8 +3020,8 @@ left: 0;
 		color: #333;
 	}
 
-	#contact_form .radio-img input[type="radio"] + label, 
-	#contact_form .radio-img input[type="checkbox"] + label{
+	#Apply_form .radio-img input[type="radio"] + label, 
+	#Apply_form .radio-img input[type="checkbox"] + label{
 		padding: 0px;
 		position: relative;
 		background: none;
@@ -3031,15 +3031,15 @@ left: 0;
 		margin-right: 20px;
 	}
 
-	#contact_form .radio-img input[type="radio"] + label:before, 
-	#contact_form .radio-img input[type="checkbox"] + label:before {
+	#Apply_form .radio-img input[type="radio"] + label:before, 
+	#Apply_form .radio-img input[type="checkbox"] + label:before {
 		position: absolute;
 		top: 10px;
 		left: 15px;
 	}
 
-	#contact_form .radio-img input[type="radio"] + label img, 
-	#contact_form .radio-img input[type="checkbox"] + label img{
+	#Apply_form .radio-img input[type="radio"] + label img, 
+	#Apply_form .radio-img input[type="checkbox"] + label img{
 		width: 100%;
 		margin-bottom: 10px;
 		border-radius: 5px;
@@ -3047,8 +3047,8 @@ left: 0;
 		-webkit-border-radius: 5px;
 	}
 
-	#contact_form .radio-img input[type="radio"]:checked + label img, 
-	#contact_form .radio-img input[type="checkbox"]:checked + label img{
+	#Apply_form .radio-img input[type="radio"]:checked + label img, 
+	#Apply_form .radio-img input[type="checkbox"]:checked + label img{
 		width: 100%;
 		padding: 8px;
 		background: var(--primary-color-1);
@@ -4940,20 +4940,20 @@ left: 0;
 		top:0;
 	}
 	
-	.de-team-contact{
+	.de-team-Apply{
 		text-align:center;
 	}
 	
-	.de-team-contact h3{
+	.de-team-Apply h3{
 		margin-bottom:10px;
 	}
 	
-	.de-team-contact img{
+	.de-team-Apply img{
 		width:60%;
 		margin-bottom:30px;
 	}
 	
-	.de-team-contact.s2 img{
+	.de-team-Apply.s2 img{
 		width:90%;
 	}
 	
@@ -5055,8 +5055,8 @@ de_tab .de_nav li span,
 .de-gallery .overlay .icon i,
 .de-gallery .overlay .icon i:hover,
 header.smaller:not(.header-bottom),
-#contact_form input[type=submit],
-#contact_form input[type=submit]:hover,
+#Apply_form input[type=submit],
+#Apply_form input[type=submit]:hover,
 .product img,
 .product img:hover,
 .mfp-close,.mfp-close:hover,
@@ -5091,7 +5091,7 @@ ul#slide-list *,
 .f-num-inc *,
 .picframe *,
 #de-extra-menu,
-#contact_form *,
+#Apply_form *,
 .de__pcard  *,
 .de__pic-hover *
 {
@@ -5660,12 +5660,12 @@ transition: .3s;
 
 
 
-.de_contact_info{
+.de_Apply_info{
 font-size:40px;
 font-weight:bold;
 }
 
-.de_contact_info i{
+.de_Apply_info i{
 float:none;
 margin-right:20px;
 }

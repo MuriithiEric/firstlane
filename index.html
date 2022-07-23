@@ -78,6 +78,49 @@
 
     <!-- custom font -->
     <link rel="stylesheet" href="css/font-style-2.css" type="text/css" />
+    <script type="text/javascript" src="js/script.js"></script>
+    <!-- Email JS code -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+
+    <!-- Email JS public Key -->
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_dbpfXnd1FYJjGT26FzGe6");
+      })();
+    </script>
+
+    <style>
+      #my_modal{
+        width: 700px;
+        height: 450px;
+        border: 4px solid #fab702;
+        box-sizing: border-box;
+        padding: 20px;
+        text-align: center;
+        background: white;
+
+        /*Code to center the modal*/
+        
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+
+        display: none;
+      }
+      #my_modal h2{
+        margin: 0px;
+      }
+      #show_time{
+        font-size: 18px;
+        color: red;
+      }
+    </style>
   </head>
 
   <body id="homepage" class="de_light">
@@ -129,31 +172,148 @@
               <nav class="md-flex">
                 <ul id="mainmenu">
                   <li>
-                    <a href="index.html">Home</a>
+                    <a href="index.html">Home<span></span></a>
+                    <ul class="mega">
+                      <li>
+                        <div class="container-fluid">
+                          <div class="menu-content">
+                            <div class="row">
+                              <div>
+                                <ul>
+                                  <li><a href="index.html">Explore Our Services</a></li>						
+                                  <li><a href="index.html">Living in Poland as an International Student</a></li>													
+                                </ul>
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                      </li>                                        
+                    </ul>
                   </li>
                   <li>
                     <a href="why-poland.html">Why Poland?</a>
+                    <ul class="mega">
+                      <li>
+                        <div class="container-fluid">
+                          <div class="menu-content">
+                            <div class="row">
+                              <div>
+                                <ul>
+                                  <li><a href="why-poland.html">Accommodation Costs in Poland</a></li>						
+                                  <li><a href="why-poland.html">Average Monthly Expenses Breakdown</a></li>													
+                                </ul>
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                      </li>                                        
+                    </ul>
                   </li>
                   <li>
-                    <a href="about.html">About Us</a>
+                    <a href="about.html">About</a>
                   </li> 
                   <li>
-                    <a href="support-in-poland.html">Support</a>
+                    <a href="support-in-poland.html">Support in Poland</a>
+                    <ul class="mega">
+                      <li>
+                        <div class="container-fluid">
+                          <div class="menu-content">
+                            <div class="row">
+                              <div>
+                                <ul>
+                                  <li>
+                                    <a href="support-in-poland.html"
+                                      >Application of a Pesel Number</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="support-in-poland.html"
+                                      >Registration of a Home Address</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="support-in-poland.html"
+                                      >Temporary Residence Card Application</a
+                                    >
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
                   </li> 
                   <li>
                     <a href="sights.html">Sights to See</a>
+                    <ul class="mega">
+                      <li>
+                        <div class="container-fluid">
+                          <div class="menu-content">
+                            <div class="row">
+                              <div>
+                                <ul>
+                                  <li>
+                                    <a href="sights.html"
+                                      >Warsaw</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="sights.html"
+                                      >Royal Castle</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="sights.html"
+                                      >Wroclaw</a
+                                    >
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
                   </li>
                   <li>
                     <a href="faq.html">FAQ</a>
                   </li> 
                   <li>
-                    <a href="grading-system.html">Polish Grading System</a>
+                    <a href="grading-system.html">Grading System</a>
+                    <ul class="mega">
+                      <li>
+                        <div class="container-fluid">
+                          <div class="menu-content">
+                            <div class="row">
+                              <div>
+                                <ul>
+                                  <li>
+                                    <a href="grading-system.html"
+                                      >Intakes</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="grading-system.html"
+                                      >Polish Grading System</a
+                                    >
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
                   </li>
                   <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="apply-now.html">Apply</a>
                   </li>
                 </ul>
               </nav>
+
 
               <!-- mainmenu close -->
             </div>
@@ -215,7 +375,7 @@
                   data-start="1200"
                   data-easing="easeOutExpo"
                 >
-                  <a href="#" class="btn-custom">Let's get started </a>
+                  <!-- <a href="#" class="btn-custom">Let's get started </a> -->
                 </div>
               </li>
 
@@ -259,7 +419,7 @@
                   data-start="1200"
                   data-easing="easeOutExpo"
                 >
-                  <a href="#" class="btn-custom">Get Your Space </a>
+                  <!-- <a href="#" class="btn-custom">Get Your Space </a> -->
                 </div>
               </li>
             </ul>
@@ -526,8 +686,8 @@
                           <div class="top">
                             <h2>Membership</h2>
                             <p class="price">
-                              <span class="currency">$</span> <b>350</b>
-                              <span class="month">/one-off</span>
+                              <!-- <span class="currency">$</span> <b>350</b>
+                              <span class="month">/one-off</span> -->
                             </p>
                           </div>
                           <div class="bottom">
@@ -547,19 +707,19 @@
                               <li><i class="icon_check"></i>Bank account application</li>
                               <li><i class="icon_check"></i>Virtual public transport system tour</i></li>
                               <li><i class="icon_check"></i>Lunch or Dinner on us depending on your arrival time</i></li>
-                              <li><i class="icon_check"></i>Emergency Contact</i></li>
+                              <li><i class="icon_check"></i>Emergency Apply</i></li>
                             </ul>
-                            <a href="#" class="btn-custom">Get It Now</a>
+                            <a href="apply-now.html" class="btn-custom">Get It Now</a>
                           </div>
                         </div>
                       </div>
                       <div class="col-sm-6 wow fadeInUp" data-wow-delay=".3s">
                         <div class="pricing-s1 light mb30">
                           <div class="top">
-                            <h2>Dedicated Desk</h2>
+                            <h2>Dedicated </h2>
                             <p class="price">
-                              <span class="currency">$</span> <b>300</b>
-                              <span class="month">/one-off</span>
+                              <!-- <span class="currency">$</span> <b>300</b>
+                              <span class="month">/one-off</span> -->
                             </p>
                           </div>
                           <div class="bottom">
@@ -575,7 +735,7 @@
                               <li><i class="icon_check"></i>Job recommendations</li>
                               <li><i class="icon_check"></i>•	Flexible hour side jobs as a taxi driver or food delivery. We will also rent a car or scooter to you at an affordable price</li>
                             </ul>
-                            <a href="#" class="btn-custom">Get It Now</a>
+                            <a href="apply-now.html" class="btn-custom">Get It Now</a>
                           </div>
                         </div>
                       </div>
@@ -802,6 +962,99 @@
             </div>
           </div>
         </section> 
+
+        <div id="my_modal" style="display: block; overflow: hidden; padding-right: 17px;">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Hello!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h2>Let's stay in touch!</h2>
+          <p>Whatsapp: +48 503 986 974 | Email: admin@firstlaneconsultancy.pl</p>
+          </div>
+          
+          <div class="row">
+            <div class="col-md-8">
+              <form name="contactForm" id="contact_form" method="post">
+                <div class="row">
+                  <div class="col-md-12 mb10">
+                    <h3>Send Us Message</h3>
+                  </div>
+                  <div class="col-md-6">
+                    <div id="name_error" class="error">
+                      Please enter your name.
+                    </div>
+                    <div>
+                      <input
+                        type="text"
+                        name="Name"
+                        id="frName"
+                        class="form-control"
+                        placeholder="Your Name"
+                        required
+                      />
+                    </div>
+
+                    <div id="email_error" class="error">
+                      Please enter your valid E-mail ID.
+                    </div>
+                    <div>
+                      <input
+                        type="email"
+                        name="Email"
+                        id="frEmail"
+                        class="form-control"
+                        placeholder="Your Email"
+                        required
+                      />
+                    </div>
+
+                    <br />
+                  </div>
+                  <br /><br />
+                  <div class="col-md-6">
+                    <div id="message_error" class="error">
+                      Please enter your message.
+                    </div>
+                    <div>
+                      <textarea
+                        name="message"
+                        id="frMsg"
+                        class="form-control"
+                        placeholder="Your Message"
+                        required
+                      ></textarea>
+                    </div>
+                  </div>
+
+
+                  <div class="col-md-12">
+                    <div
+                      class="g-recaptcha"
+                      data-sitekey="6LfHDjsdAAAAANyZQJeyAUNIjTPCB-5PodXpdloe"
+                    ></div>
+                    <p onclick="sendOtherMail()" id="submit" class="mt20">
+                      <input
+                        type="submit"
+                        id="send_message"
+                        value="Submit Form"
+                        class="btn btn-line"
+                      />
+                    </p>
+                    <div id="mail_success" class="success">
+                      Your message has been sent successfully.
+                    </div>
+                    <div id="mail_fail" class="error">
+                      Sorry, error occured this time sending your message.
+                    </div>
+                  </div>
+
+
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
         <!-- logo carousel section close -->
       </div>
 
@@ -816,12 +1069,12 @@
                 </div>
 
                 <div class="col-lg-4">
-                    <h3>Contact Us</h3>
+                    <h3>Apply Us</h3>
                     <div class="widget widget-address">
                         <address>
                             <span>9/11, Domaniewska, Warsaw 02-663</span>
                             <span><strong>Phone:</strong>+48 503 986 974</span> 
-                            <span><strong>Email:</strong><a href="mailto:contact@archi-interior.com">abbottgitonga@gmail.com</a></span>
+                            <span><strong>Email:</strong><a href="mailto:abbottgitonga@gmail.com">abbottgitonga@gmail.com</a></span>
                             <span><strong>Web:</strong><a href="#">http://firstlaneconsultancy.pl</a></span>
                         </address>
                     </div>
@@ -873,5 +1126,22 @@
     <!-- SLIDER REVOLUTION SCRIPTS  -->
     <script src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
     <script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+    <script>
+      var my_modal = document.getElementById("my_modal");
+      function showModal(){
+        my_modal.style.display = "block";
+      }
+
+      //Show modal after 1 second
+      setTimeout(showModal, 7000)
+
+      //now close
+      function closeModal(){
+        my_modal.style.display = "none";
+      }
+
+      setTimeout(closeModal, 5000)
+    </script>
   </body>
 </html>

@@ -34,7 +34,7 @@
 .page-shop #subheader {
   background-image: url(../images/background/subheader-5.jpg);
 }
-.page-contact #subheader {
+.page-Apply #subheader {
   background-image: url(../images/background/subheader-6.jpg);
 }
 
@@ -73,7 +73,7 @@
   background: url(../images/background/artificialfootball.jpg);
 }
 #section-about-us-10 .image-container {
-	background: url(../images/background/wroclaw.jpg);
+  background: url(../images/background/wroclaw.jpg);
 }
 #section-welcome-5 {
   background: url(../images/background/bg-14.jpg) top fixed;
@@ -228,7 +228,7 @@
 #section-side-1-index-landing-product.side-bg .image-container {
   background: url(../images/background/bg-side-10.jpg) center;
 }
-#section-contact-landing-product {
+#section-Apply-landing-product {
   background: url(../images/background/bg-28.jpg) bottom no-repeat;
 }
 #section-before-after {
@@ -241,7 +241,7 @@
 #side-01-about.side-bg .image-container {
   background: url(../images/background/bg-side-8.jpg) center;
 }
-#side-01-contact.side-bg .image-container {
+#side-01-Apply.side-bg .image-container {
   background: url(../images/background/bg-side-7.jpg) center;
 }
 #side-01-services.side-bg .image-container {
@@ -285,7 +285,7 @@
 .de-navbar-left.de_light.page-shop #subheader {
   background-image: url(../images/background/subheader-5-sn.jpg);
 }
-.de-navbar-left.de_light.page-contact #subheader {
+.de-navbar-left.de_light.page-Apply #subheader {
   background-image: url(../images/background/subheader-6-sn.jpg);
 }
 
