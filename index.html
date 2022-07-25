@@ -76,6 +76,13 @@
     <link rel="stylesheet" href="rs-plugin/css/settings.css" type="text/css" />
     <link rel="stylesheet" href="css/rev-settings.css" type="text/css" />
 
+    <!-- Poptin Code to show a popup after a couple of seconds -->
+    <script
+      id="pixel-script-poptin"
+      src="https://cdn.popt.in/pixel.js?id=6d2026f4ea678"
+      async="true"
+    ></script>
+
     <!-- custom font -->
     <link rel="stylesheet" href="css/font-style-2.css" type="text/css" />
     <script type="text/javascript" src="js/script.js"></script>
@@ -85,7 +92,6 @@
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
     ></script>
 
-
     <!-- Email JS public Key -->
     <script type="text/javascript">
       (function () {
@@ -94,7 +100,7 @@
     </script>
 
     <style>
-      #my_modal{
+      #my_modal {
         width: 700px;
         height: 450px;
         border: 4px solid #fab702;
@@ -104,21 +110,26 @@
         background: white;
 
         /*Code to center the modal*/
-        
+
         position: relative;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        
 
         display: none;
       }
-      #my_modal h2{
+      #my_modal h2 {
         margin: 0px;
       }
-      #show_time{
+      #show_time {
         font-size: 18px;
         color: red;
+      }
+      .close:hover,
+      .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
       }
     </style>
   </head>
@@ -180,15 +191,23 @@
                             <div class="row">
                               <div>
                                 <ul>
-                                  <li><a href="index.html">Explore Our Services</a></li>						
-                                  <li><a href="index.html">Living in Poland as an International Student</a></li>													
+                                  <li>
+                                    <a href="index.html"
+                                      >Explore Our Services</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="index.html"
+                                      >Living in Poland as an International
+                                      Student</a
+                                    >
+                                  </li>
                                 </ul>
                               </div>
-
                             </div>
                           </div>
                         </div>
-                      </li>                                        
+                      </li>
                     </ul>
                   </li>
                   <li>
@@ -200,20 +219,27 @@
                             <div class="row">
                               <div>
                                 <ul>
-                                  <li><a href="why-poland.html">Accommodation Costs in Poland</a></li>						
-                                  <li><a href="why-poland.html">Average Monthly Expenses Breakdown</a></li>													
+                                  <li>
+                                    <a href="why-poland.html"
+                                      >Accommodation Costs in Poland</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a href="why-poland.html"
+                                      >Average Monthly Expenses Breakdown</a
+                                    >
+                                  </li>
                                 </ul>
                               </div>
-
                             </div>
                           </div>
                         </div>
-                      </li>                                        
+                      </li>
                     </ul>
                   </li>
                   <li>
                     <a href="about.html">About</a>
-                  </li> 
+                  </li>
                   <li>
                     <a href="support-in-poland.html">Support in Poland</a>
                     <ul class="mega">
@@ -245,7 +271,7 @@
                         </div>
                       </li>
                     </ul>
-                  </li> 
+                  </li>
                   <li>
                     <a href="sights.html">Sights to See</a>
                     <ul class="mega">
@@ -256,19 +282,13 @@
                               <div>
                                 <ul>
                                   <li>
-                                    <a href="sights.html"
-                                      >Warsaw</a
-                                    >
+                                    <a href="sights.html">Warsaw</a>
                                   </li>
                                   <li>
-                                    <a href="sights.html"
-                                      >Royal Castle</a
-                                    >
+                                    <a href="sights.html">Royal Castle</a>
                                   </li>
                                   <li>
-                                    <a href="sights.html"
-                                      >Wroclaw</a
-                                    >
+                                    <a href="sights.html">Wroclaw</a>
                                   </li>
                                 </ul>
                               </div>
@@ -280,7 +300,7 @@
                   </li>
                   <li>
                     <a href="faq.html">FAQ</a>
-                  </li> 
+                  </li>
                   <li>
                     <a href="grading-system.html">Grading System</a>
                     <ul class="mega">
@@ -291,9 +311,7 @@
                               <div>
                                 <ul>
                                   <li>
-                                    <a href="grading-system.html"
-                                      >Intakes</a
-                                    >
+                                    <a href="grading-system.html">Intakes</a>
                                   </li>
                                   <li>
                                     <a href="grading-system.html"
@@ -313,7 +331,6 @@
                   </li>
                 </ul>
               </nav>
-
 
               <!-- mainmenu close -->
             </div>
@@ -339,10 +356,7 @@
                 data-thumb=""
               >
                 <!--  BACKGROUND IMAGE -->
-                <img
-                  src="./images/group.jpeg"
-                  alt=""
-                />
+                <img src="./images/group.jpeg" alt="" />
                 <div
                   class="tp-caption small-white sfr"
                   data-x="0"
@@ -408,7 +422,7 @@
                   data-easing="easeOutExpo"
                   data-endspeed="400"
                 >
-                Reach your<br />Ambitions.
+                  Reach your<br />Ambitions.
                 </div>
 
                 <div
@@ -442,15 +456,18 @@
 
               <div class="col-md-6 wow fadeInUp">
                 <h2>
-                  Thinking of relocating to Poland, but are not sure where to start?
-
+                  Thinking of relocating to Poland, but are not sure where to
+                  start?
                 </h2>
 
                 <p>
-                 We are here to provide you with the necessary information needed to prepare yourself to relocate to Poland. 
-                 We offer thorough services during your transition in a smooth and efficient way. 
-                 During your application from university selection, documentation, procedure, admissions and clearing IELTS/ 
-                 SAT we provide step to step guidance to make it possible for you to attend a prestigious university.
+                  We are here to provide you with the necessary information
+                  needed to prepare yourself to relocate to Poland. We offer
+                  thorough services during your transition in a smooth and
+                  efficient way. During your application from university
+                  selection, documentation, procedure, admissions and clearing
+                  IELTS/ SAT we provide step to step guidance to make it
+                  possible for you to attend a prestigious university.
                 </p>
 
                 <!-- <a href="#" class="btn-custom">Read more</a> -->
@@ -461,6 +478,111 @@
           </div>
         </section>
         <!-- section close -->
+
+        <div
+          id="my_modal"
+          style="display: block; overflow: hidden; padding-right: 17px"
+        >
+          <div>
+            <span
+              class="close"
+              style="
+                float: right;
+                font-size: 20px;
+                font-weight: bold;
+                color: #fab702;
+              "
+              >x</span
+            >
+            <h5>Hello!</h5>
+            <br />
+          </div>
+          <div class="modal-body">
+            <h2>Let's stay in touch!</h2>
+            <p>
+              Whatsapp: +48 503 986 974 | Email: admin@firstlaneconsultancy.pl
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-md-8">
+              <form name="contactForm" id="contact_form" method="post">
+                <div class="row">
+                  <div class="col-md-12 mb10">
+                    <h3>Send Us Message</h3>
+                  </div>
+                  <div class="col-md-6">
+                    <div id="name_error" class="error">
+                      Please enter your name.
+                    </div>
+                    <div>
+                      <input
+                        type="text"
+                        name="Name"
+                        id="frName"
+                        class="form-control"
+                        placeholder="Your Name"
+                        required
+                      />
+                    </div>
+
+                    <div id="email_error" class="error">
+                      Please enter your valid E-mail ID.
+                    </div>
+                    <div>
+                      <input
+                        type="email"
+                        name="Email"
+                        id="frEmail"
+                        class="form-control"
+                        placeholder="Your Email"
+                        required
+                      />
+                    </div>
+
+                    <br />
+                  </div>
+                  <br /><br />
+                  <div class="col-md-6">
+                    <div id="message_error" class="error">
+                      Please enter your message.
+                    </div>
+                    <div>
+                      <textarea
+                        name="message"
+                        id="frMsg"
+                        class="form-control"
+                        placeholder="Your Message"
+                        required
+                      ></textarea>
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <div
+                      class="g-recaptcha"
+                      data-sitekey="6LfHDjsdAAAAANyZQJeyAUNIjTPCB-5PodXpdloe"
+                    ></div>
+                    <p onclick="sendOtherMail()" id="submit" class="mt20">
+                      <input
+                        type="submit"
+                        id="send_message"
+                        value="Submit Form"
+                        class="btn btn-line"
+                      />
+                    </p>
+                    <div id="mail_success" class="success">
+                      Your message has been sent successfully.
+                    </div>
+                    <div id="mail_fail" class="error">
+                      Sorry, error occured this time sending your message.
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
 
         <section id="section-why-choose-us-2" data-bgcolor="#F7F8FA">
           <div class="container">
@@ -486,9 +608,9 @@
                 <div class="text padding30" data-bgcolor="#ffffff">
                   <h3>Student Counselling</h3>
                   <p>
-                    We will guide you on what course will best suit you passion and future 
-                    aspirations. Providing details about the average salary, internship offers & 
-                    more.
+                    We will guide you on what course will best suit you passion
+                    and future aspirations. Providing details about the average
+                    salary, internship offers & more.
                   </p>
                 </div>
               </div>
@@ -497,7 +619,8 @@
                 <div class="text padding30" data-bgcolor="#ffffff">
                   <h3>University Selection Counseling</h3>
                   <p>
-                    We will guide you on what university will best fit your needs
+                    We will guide you on what university will best fit your
+                    needs
                   </p>
                 </div>
 
@@ -518,7 +641,8 @@
                 <div class="text padding30" data-bgcolor="#ffffff">
                   <h3>University Application</h3>
                   <p>
-                    We will assist in your university application and submission including follow-ups.                   
+                    We will assist in your university application and submission
+                    including follow-ups.
                   </p>
                 </div>
               </div>
@@ -527,9 +651,10 @@
                 <div class="text padding30" data-bgcolor="#ffffff">
                   <h3>Visa Processing</h3>
                   <p>
-                    We will give you expert visa assistance. This includes completion and 
-                    submissions the process involves a two-stage checking process, to ensure 
-                    you have the best chances of getting an approval!
+                    We will give you expert visa assistance. This includes
+                    completion and submissions the process involves a two-stage
+                    checking process, to ensure you have the best chances of
+                    getting an approval!
                   </p>
                 </div>
 
@@ -550,8 +675,9 @@
                 <div class="text padding30" data-bgcolor="#ffffff">
                   <h3>Accommodation Booking</h3>
                   <p>
-                    We will assist you to secure accommodation. We have a ready connection with 
-                    plenty of landlords in Warsaw offering affordable housing for students.
+                    We will assist you to secure accommodation. We have a ready
+                    connection with plenty of landlords in Warsaw offering
+                    affordable housing for students.
                   </p>
                 </div>
               </div>
@@ -559,9 +685,7 @@
               <div class="col-md-3 wow fadeInUp" data-wow-delay=".3s">
                 <div class="text padding30" data-bgcolor="#ffffff">
                   <h3>Flight Booking</h3>
-                  <p>
-                    We will assist you to make flight arrangements.
-                  </p>
+                  <p>We will assist you to make flight arrangements.</p>
                 </div>
 
                 <img
@@ -580,9 +704,7 @@
 
                 <div class="text padding30" data-bgcolor="#ffffff">
                   <h3>Pre-Departure Briefing</h3>
-                  <p>
-                    We will assist you with all your pre-departure needs.                   
-                  </p>
+                  <p>We will assist you with all your pre-departure needs.</p>
                 </div>
               </div>
 
@@ -590,9 +712,9 @@
                 <div class="text padding30" data-bgcolor="#ffffff">
                   <h3>Arrival Experience</h3>
                   <p>
-                    We will arrange your pick up from the airport and help you to settle
-                    at the accommodation and university. 
-                    Free meal on us when you arrive and more.
+                    We will arrange your pick up from the airport and help you
+                    to settle at the accommodation and university. Free meal on
+                    us when you arrive and more.
                   </p>
                 </div>
 
@@ -613,10 +735,11 @@
                 <div class="text padding30" data-bgcolor="#ffffff">
                   <h3>Follow-ups</h3>
                   <p>
-                    We will continue to assist you and offer any advice needed to help you to 
-                    adapt to the environment. This where we stand out our consultants based in 
-                    Poland will offer hands on help for each one of our students. We believe this 
-                    is the most crucial part of our services as it enables the student to 
+                    We will continue to assist you and offer any advice needed
+                    to help you to adapt to the environment. This where we stand
+                    out our consultants based in Poland will offer hands on help
+                    for each one of our students. We believe this is the most
+                    crucial part of our services as it enables the student to
                     maximize the opportunity at hand
                   </p>
                 </div>
@@ -632,8 +755,9 @@
                 <div class="text padding30" data-bgcolor="#ffffff">
                   <h3>Life Skills Trainings & Workshops</h3>
                   <p>
-                    We organize get togethers, trainings and workshops that empower personal 
-                    development. We emphasize on financial literacy, discipline. 
+                    We organize get togethers, trainings and workshops that
+                    empower personal development. We emphasize on financial
+                    literacy, discipline.
                   </p>
                 </div>
               </div>
@@ -648,11 +772,11 @@
                 <div class="text padding30" data-bgcolor="#ffffff">
                   <h3>Holiday Trips and sports activities</h3>
                   <p>
-                    We organize trips to different cities and countries during our holidays. We organize
+                    We organize trips to different cities and countries during
+                    our holidays. We organize
                   </p>
                 </div>
               </div>
-              
             </div>
           </div>
         </section>
@@ -669,7 +793,7 @@
                 class="col-md-6 offset-md-3 text-center text-light wow fadeInUp"
               >
                 <h5 class="s2">Choose Your</h5>
-                <h1>Pricing Plan</h1>
+                <h1>Package</h1>
                 <div class="separator">
                   <span><i class="fa fa-square"></i></span>
                 </div>
@@ -680,62 +804,515 @@
                 <div class="item pricing">
                   <div class="container">
                     <div class="row">
-                      <div class="col-sm-6 wow fadeInUp" data-wow-delay="0s">
+                      <div class="col-sm-4 wow fadeInUp" data-wow-delay="0s">
                         <div class="pricing-s1 light mb30">
                           <div class="ribbon">Recommend</div>
                           <div class="top">
-                            <h2>Membership</h2>
+                            <h2>Basic</h2>
                             <p class="price">
-                              <!-- <span class="currency">$</span> <b>350</b>
-                              <span class="month">/one-off</span> -->
+                              <span class="currency">Support in Kenya</span>
+                              <!--<b>350</b>
+                              <span class="month"></span> -->
                             </p>
                           </div>
                           <div class="bottom">
                             <ul>
-                              <li><i class="icon_check"></i>Finding Accommodation</li>
-                              <li><i class="icon_check"></i>Assistance in applying for your chosen university.</li>
                               <li>
-                                <i class="icon_check"></i>Assistance putting together the necessary documents for the application
+                                <i class="icon_check"></i>Student Counselling
                               </li>
                               <li>
-                                <i class="icon_check"></i>Assistance with your VISA application process. Real-time call with one of our consultants
+                                <i class="icon_check"></i>University Selection
+                                Counselling
                               </li>
-                              <li><i class="icon_check"></i>Booking your flight with our trusted travel agent</li>
-                              <li><i class="icon_check"></i>Airport pickup</li>
-                              <li><i class="icon_check"></i>Forex service at affordable rates</li>
-                              <li><i class="icon_check"></i>Sim-card registration</li>
-                              <li><i class="icon_check"></i>Bank account application</li>
-                              <li><i class="icon_check"></i>Virtual public transport system tour</i></li>
-                              <li><i class="icon_check"></i>Lunch or Dinner on us depending on your arrival time</i></li>
-                              <li><i class="icon_check"></i>Emergency Apply</i></li>
+                              <li>
+                                <i class="icon_check"></i>University Application
+                              </li>
+                              <li><i class="icon_check"></i>Visa Processing</li>
+                              <li>
+                                <i class="icon_check"></i>Accomodation Booking
+                              </li>
+                              <li><i class="icon_check"></i>Flight Booking</li>
+                              <li>
+                                <i class="icon_check"></i>Pre-departure
+                                Orientation
+                              </li>
+                              <li>
+                                <i
+                                  class="icon_check"
+                                  style="text-align: center"
+                                ></i>
+                                -
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>Briefing on the
+                                requirements of the Polish Government for
+                                International students during their stay
+                              </li>
                             </ul>
-                            <a href="apply-now.html" class="btn-custom">Get It Now</a>
+                            <!-- <a href="apply-now.html" class="btn-custom"
+                              >Get It Now</a> -->
                           </div>
                         </div>
                       </div>
-                      <div class="col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                      <div class="col-sm-4 wow fadeInUp" data-wow-delay=".3s">
                         <div class="pricing-s1 light mb30">
                           <div class="top">
-                            <h2>Dedicated </h2>
+                            <h2>Intermediate</h2>
                             <p class="price">
-                              <!-- <span class="currency">$</span> <b>300</b>
-                              <span class="month">/one-off</span> -->
+                              <span class="currency">Support in Kenya</span>
+                              <!--<b>350</b>
+                              <span class="month"></span> -->
                             </p>
                           </div>
                           <div class="bottom">
                             <ul>
-                              <li><i class="icon_check"></i>Application of a PESEL (link to info on PESEL) number. You should apply for it 60 days after your stay in Poland.</li>
-                              <li><i class="icon_check"></i>Registration of Home Address (link to info)</li>
                               <li>
-                                <i class="icon_check"></i>Obtaining a Public transport card (Link to info about Public Transport card)
+                                <i class="icon_check"></i>Student Counselling
                               </li>
                               <li>
-                                <i class="icon_check"></i>Temporary residence card application with assistance from a trusted lawyer
+                                <i class="icon_check"></i>University Selection
+                                Counselling
                               </li>
-                              <li><i class="icon_check"></i>Job recommendations</li>
-                              <li><i class="icon_check"></i>•	Flexible hour side jobs as a taxi driver or food delivery. We will also rent a car or scooter to you at an affordable price</li>
+                              <li>
+                                <i class="icon_check"></i>University Application
+                              </li>
+                              <li><i class="icon_check"></i>Visa Processing</li>
+                              <li>
+                                <i class="icon_check"></i>Accomodation Booking
+                              </li>
+                              <li><i class="icon_check"></i>Flight Booking</li>
+                              <li>
+                                <i class="icon_check"></i>Pre-departure
+                                Orientation
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>Pre-Departure Parent &
+                                Student Seminar facilitated by our partners Lead
+                                Trains Ltd.
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>Briefing on the
+                                requirements of the Polish Government for
+                                International students during their stay
+                              </li>
                             </ul>
-                            <a href="apply-now.html" class="btn-custom">Get It Now</a>
+                            <!-- <a href="apply-now.html" class="btn-custom"
+                              >Get It Now</a> -->
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4 wow fadeInUp" data-wow-delay="0s">
+                        <div class="pricing-s1 light mb30">
+                          <div class="ribbon">Recommend</div>
+                          <div class="top">
+                            <h2>Advanced</h2>
+                            <p class="price">
+                              <span class="currency">Support in Kenya</span>
+                              <!--<b>350</b>
+                              <span class="month"></span> -->
+                            </p>
+                          </div>
+                          <div class="bottom">
+                            <ul>
+                              <li>
+                                <i class="icon_check"></i>Student Counselling
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>University Selection
+                                Counselling
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>University Application
+                              </li>
+                              <li><i class="icon_check"></i>Visa Processing</li>
+                              <li>
+                                <i class="icon_check"></i>Accomodation Booking
+                              </li>
+                              <li><i class="icon_check"></i>Flight Booking</li>
+                              <li>
+                                <i class="icon_check"></i>Pre-departure
+                                Orientation
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>Pre-Departure Parent &
+                                Student Seminar facilitated by our partners Lead
+                                Trains Ltd.
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>Briefing on the
+                                requirements of the Polish Government for
+                                International students during their stay
+                              </li>
+                            </ul>
+                            <!-- <a href="apply-now.html" class="btn-custom"
+                              >Get It Now</a> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="item pricing">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm-4 wow fadeInUp" data-wow-delay="0s">
+                        <div class="pricing-s1 light mb30">
+                          <div class="ribbon">Recommend</div>
+                          <div class="top">
+                            <h2>Basic</h2>
+                            <p class="price">
+                              <span class="currency">Support in Poland</span>
+                              <!--<b>350</b>
+                              <span class="month"></span> -->
+                            </p>
+                          </div>
+                          <div class="bottom">
+                            <ul>
+                              <li><i class="icon_check"></i>Airport Pick up</li>
+                              <li><i class="icon_check"></i>-</li>
+                              <li>
+                                <i class="icon_check"></i>Follow ups for the
+                                first month
+                              </li>
+                              <li><i class="icon_check"></i>-</li>
+                              <li><i class="icon_check"></i>-</li>
+                              <li>
+                                <i class="icon_check"></i>Personal and
+                                Professional development books written by Mr.
+                                Anthony T. Gitonga (One book each for the
+                                Parents and the student)
+                              </li>
+                              <li><i class="icon_check"></i>-</li>
+                              <li><i class="icon_check"></i>-</li>
+                              <li>
+                                <i class="icon_check"></i>Emergency Contact
+                              </li>
+                              <li>
+                                <i
+                                  class="icon_check"
+                                  style="text-align: center"
+                                ></i>
+                                -
+                              </li>
+                              <li><i class="icon_check"></i>-</li>
+                              <li><i class="icon_check"></i>-</li>
+                              <li>
+                                <i class="icon_check"></i>First Lane Community
+                                Whatsapp Group
+                              </li>
+                              <li>
+                                <i class="icon_check"></i
+                                ><a href="#" style="color: #fab702">Monthly</a
+                                >Student Get Togethers & Barbeques during summer
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>
+                                Sports activities<a
+                                  href="sights.html"
+                                  style="color: #fab702"
+                                  >Sights to See</a
+                                >
+                              </li>
+                              <li><i class="icon_check"></i>-</li>
+                              <li>
+                                <i class="icon_check"></i>Accountability Partner
+                                <a
+                                  href="accountability.html"
+                                  style="color: #fab702"
+                                  >Why is this crucial?</a
+                                >
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>Student Job
+                                Recommendations
+                              </li>
+                              <li><i class="icon_check"></i>-</li>
+                            </ul>
+
+                            <a href="apply-now.html" class="btn-custom"
+                              >Get It Now</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="pricing-s1 light mb30">
+                          <div class="top">
+                            <h2>Intermediate</h2>
+                            <p class="price">
+                              <span class="currency">Support in Poland</span>
+                              <!--<b>350</b>
+                              <span class="month"></span> -->
+                            </p>
+                          </div>
+                          <div class="bottom">
+                            <ul>
+                              <li>
+                                <i class="icon_check"></i>Airport Pick up &
+                                Arrival Experience
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>
+                                Free lunch or dinner depending on the time of
+                                your arrival at a restaurant of your choice
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>Follow ups during your
+                                first year
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>Half -Day private tour
+                                of Warsaw on bicycles with a tour guide.
+                                <a href="sights.html" style="color: #fab702"
+                                  >See More</a
+                                >
+                              </li>
+                              <li>
+                                <i class="icon_check"></i
+                                ><a href="#" style="color: #fab702">Virtual </a
+                                >Public transport system tour
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>Personal and
+                                Professional development books written by Mr.
+                                Anthony T. Gitonga<a
+                                  href="#"
+                                  stye="color: #fab702"
+                                  >(One book every 3 months for the Parents and
+                                  the student during the follow up period)</a
+                                >
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>Book study seminars of
+                                the current read before the issue of the new
+                                book
+                                <a href="#" style="color: #fab702"
+                                  >with the author himself</a
+                                >
+                              </li>
+                              <li>
+                                <i class="icon_check"></i
+                                ><a href="#" style="color: #fab702">
+                                  Life Skills training
+                                </a>
+                                facilitated by our partners Lead Trains Ltd.
+                              </li>
+
+                              <li>
+                                <i class="icon_check"></i>Emergency Contact
+                              </li>
+                              <li>
+                                <i
+                                  class="icon_check"
+                                  style="text-align: center"
+                                ></i>
+                                Temporary Residence Card application &
+                                assistance all necessary documents required by
+                                each student in Poland.
+                                <a
+                                  href="support-in-poland.html"
+                                  style="color: #fab702"
+                                  >Read More</a
+                                >
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>Live Forums with
+                                International Leadership Coach, Speaker, and
+                                Author
+                                <a href="#" style="color: #fab702"
+                                  >(Every 3 months during follow up period)</a
+                                >
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>Financial literacy
+                                classes and assistance budgeting the students’
+                                monthly funds
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>First Lane Community
+                                Whatsapp Group
+                              </li>
+                              <li>
+                                <i class="icon_check"></i
+                                ><a href="#" style="color: #fab702">Monthly</a
+                                >Student Get Togethers & Barbeques during summer
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>Holiday Trips and
+                                sports activities<a
+                                  href="sights.html"
+                                  style="color: #fab702"
+                                  >Sights to See</a
+                                >
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>Discover
+                                <a href="#" style="color: #fab702"
+                                  >Vistula River</a
+                                >
+                                boat ride
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>Accountability Partner
+                                <a
+                                  href="accountability.html"
+                                  style="color: #fab702"
+                                  >Why is this crucial?</a
+                                >
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>Student Job
+                                Recommendations and assistance in creating your
+                                CV & Resume
+                              </li>
+                              <li><i class="icon_check"></i>-</li>
+                            </ul>
+                            <a href="apply-now.html" class="btn-custom"
+                              >Get It Now</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4 wow fadeInUp" data-wow-delay="0s">
+                        <div class="pricing-s1 light mb30">
+                          <div class="ribbon">Recommend</div>
+                          <div class="top">
+                            <h2>Advanced</h2>
+                            <p class="price">
+                              <span class="currency">Support in Poland</span>
+                              <!--<b>350</b>
+                              <span class="month"></span> -->
+                            </p>
+                          </div>
+                          <div class="bottom">
+                            <ul>
+                              <li>
+                                <i class="icon_check"></i>Airport Pick up &
+                                Arrival Experience
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>
+                                Free lunch or dinner depending on the time of
+                                your arrival at a restaurant of your choice
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>Follow ups during your
+                                <a href="#" style="color: #fab702">
+                                  entire study period</a
+                                >
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>Half - Day private
+                                tour of Warsaw on bicycles with licensed tour
+                                guide.
+                                <a href="sights.html" style="color: #fab702"
+                                  >See More</a
+                                >
+                              </li>
+                              <li>
+                                <i class="icon_check"></i
+                                ><a href="#" style="color: #fab702">Physical </a
+                                >Public transport system tour
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>Personal and
+                                Professional development books written by Mr.
+                                Anthony T. Gitonga<a
+                                  href="#"
+                                  stye="color: #fab702"
+                                  >(One book every 3 months for the Parents and
+                                  the student during the follow up period)</a
+                                >
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>Book study seminars of
+                                the current read before the issue of the new
+                                book
+                                <a href="#" style="color: #fab702"
+                                  >with the author himself</a
+                                >
+                              </li>
+                              <li>
+                                <i class="icon_check"></i
+                                ><a href="#" style="color: #fab702">
+                                  Life Skills training
+                                </a>
+                                facilitated by our partners Lead Trains Ltd.
+                              </li>
+
+                              <li>
+                                <i class="icon_check"></i>Emergency Contact
+                              </li>
+                              <li>
+                                <i
+                                  class="icon_check"
+                                  style="text-align: center"
+                                ></i>
+                                Temporary Residence Card application &
+                                assistance all necessary documents required by
+                                each student in Poland.
+                                <a
+                                  href="support-in-poland.html"
+                                  style="color: #fab702"
+                                  >Read More</a
+                                >
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>Live Forums with
+                                International Leadership Coach, Speaker, and
+                                Author
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>Financial literacy
+                                classes and assistance budgeting the students’
+                                monthly funds
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>First Lane Community
+                                Whatsapp Group
+                              </li>
+                              <li>
+                                <i class="icon_check"></i
+                                ><a href="#" style="color: #fab702">Monthly</a
+                                >Student Get Togethers & Barbeques during summer
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>Holiday Trips and
+                                sports activities<a
+                                  href="sights.html"
+                                  style="color: #fab702"
+                                  >Sights to See</a
+                                >
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>Discover
+                                <a href="#" style="color: #fab702"
+                                  >Vistula River</a
+                                >
+                                boat ride
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>Accountability Partner
+                                <a
+                                  href="accountability.html"
+                                  style="color: #fab702"
+                                  >Why is this crucial?</a
+                                >
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>Student Job
+                                Recommendations and assistance in creating your
+                                CV & Resume
+                              </li>
+                              <li>
+                                <i class="icon_check"></i>Polish food tour
+                              </li>
+                            </ul>
+                            <a href="apply-now.html" class="btn-custom"
+                              >Get It Now</a
+                            >
                           </div>
                         </div>
                       </div>
@@ -759,7 +1336,7 @@
               <div
                 class="col-md-6 offset-md-3 text-center text-light wow fadeInUp"
               >
-                <h5 class="s2">Living in </h5>
+                <h5 class="s2">Living in</h5>
                 <h1>Poland as an International Student</h1>
                 <div class="separator">
                   <span><i class="fa fa-square"></i></span>
@@ -767,62 +1344,83 @@
                 <div class="spacer-single"></div>
               </div>
 
-              <div class="col-md-4 wow fadeInUp" data-wow-delay="0s">
+              <div class="col-md-6 wow fadeInUp" data-wow-delay="0s">
+                <div class="box-icon">
+                  <span class="icon wow fadeIn" data-wow-delay=".5s"
+                    ><i class="id-color icon-clock"></i
+                  ></span>
+                  <div class="text">
+                    <h4>Economy</h4>
+                    <p>
+                      The country's economy has seen rapid growth over the past
+                      20 years. It is a modern, clean, very safe and offers all
+                      the opportunities available elsewhere. This at a cost of
+                      living still much lower than in Western Europe, and
+                      international students are enrolling here in numbers.
+                      <b><i>1 Polish Zloty = 25.49 KSH</i></b>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 wow fadeInUp" data-wow-delay="0s">
                 <div class="box-icon">
                   <span class="icon wow fadeIn" data-wow-delay=".5s"
                     ><i class="id-color icon-chat"></i
                   ></span>
                   <div class="text">
-                    <h3>Connect</h3>
+                    <h4>Connect</h4>
                     <p>
-                      Studying in Poland is attractive not only academically, but also for the high quality of life available here. 
-                      The country's economy has seen rapid growth over the past 20 years. It is a modern, clean, very safe and offers all the opportunities 
-                      available elsewhere. This at a cost of living still much lower than in Western Europe, and international students are enrolling here in numbers. 
-                      Other than the Poles who are welcoming people, international students can find a community with fellow international students due to the high 
-                      number such students. Home away from home 😊
-                      
+                      Other than the Poles who are welcoming people,
+                      international students can find a community with fellow
+                      international students due to the high number such
+                      students. Home away from home 😊
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div class="col-md-4 wow fadeInUp" data-wow-delay=".25s">
+              <div class="col-md-6 wow fadeInUp" data-wow-delay=".25s">
                 <div class="box-icon">
                   <span class="icon wow fadeIn" data-wow-delay=".75s"
                     ><i class="id-color icon-key"></i
                   ></span>
                   <div class="text">
-                    <h3>Accommodation</h3>
+                    <h4>Accommodation</h4>
                     <p>
-                      The average cost of a place in a public university dormitory is PLN 400-600, in a private dormitory PLN 800-1300, 
-                      the price of a room to rent in a shared apartment PLN 900-1300, and the rent of a studio flat PLN 1300-2000. 
-                      An apartment with 2-3 rooms costs 2000-3000 PLN. 
+                      The average cost of a place in a public university
+                      dormitory is PLN 400-600, in a private dormitory PLN
+                      800-1300, the price of a room to rent in a shared
+                      apartment PLN 900-1300, and the rent of a studio flat PLN
+                      1300-2000. An apartment with 2-3 rooms costs 2000-3000
+                      PLN.
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div class="col-md-4 wow fadeInUp" data-wow-delay=".5s">
+              <div class="col-md-6 wow fadeInUp" data-wow-delay=".5s">
                 <div class="box-icon">
                   <span class="icon wow fadeIn" data-wow-delay="1s"
                     ><i class="id-color icon-wallet"></i
                   ></span>
                   <div class="text">
-                    <h3>Currency </h3>
+                    <h4>Currency</h4>
                     <p>
-                      The Polish currency is the Polish zloty (zł, PLN). One zloty is 100 groszy (gr).
-                      The denominations are 10, 20, 50, 100 and 200 PLN banknotes in circulation as well as 1, 2 and 5 PLN 
-                      coins and 1, 2, 5, 10, 20 and 50 groszy coins. The groszy coins be quite a lot keep a coin section in your wallet would be helpful.                     
+                      The Polish currency is the Polish zloty (zł, PLN). One
+                      zloty is 100 groszy (gr). The denominations are 10, 20,
+                      50, 100 and 200 PLN banknotes in circulation as well as 1,
+                      2 and 5 PLN coins and 1, 2, 5, 10, 20 and 50 groszy coins.
+                      The groszy coins be quite a lot keep a coin section in
+                      your wallet would be helpful.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section> 
+        </section>
         <!-- section close -->
-
-       
 
         <!-- section begin -->
         <!-- <section id="section-partners">
@@ -950,157 +1548,79 @@
             <div class="row align-items-center">
               <div class="col-md-8">
                 <h7 class="size-2 no-margin">
-                  When you are in Poland, we offer you several options to support you, and make sure you are comfortable
+                  When you are in Poland, we offer you several options to
+                  support you, and make sure you are comfortable
                 </h7>
               </div>
 
               <div class="col-md-4 text-right">
-                <a href="support-in-poland.html" target="_blank" class="btn-custom wow fadeInUp"
+                <a
+                  href="support-in-poland.html"
+                  target="_blank"
+                  class="btn-custom wow fadeInUp"
                   >Support in Poland</a
                 >
               </div>
             </div>
           </div>
-        </section> 
+        </section>
 
-        <div id="my_modal" style="display: block; overflow: hidden; padding-right: 17px;">
-          <div class="modal-header">
-            <h5 class="modal-title" id="staticBackdropLabel">Hello!</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <h2>Let's stay in touch!</h2>
-          <p>Whatsapp: +48 503 986 974 | Email: admin@firstlaneconsultancy.pl</p>
-          </div>
-          
-          <div class="row">
-            <div class="col-md-8">
-              <form name="contactForm" id="contact_form" method="post">
-                <div class="row">
-                  <div class="col-md-12 mb10">
-                    <h3>Send Us Message</h3>
-                  </div>
-                  <div class="col-md-6">
-                    <div id="name_error" class="error">
-                      Please enter your name.
-                    </div>
-                    <div>
-                      <input
-                        type="text"
-                        name="Name"
-                        id="frName"
-                        class="form-control"
-                        placeholder="Your Name"
-                        required
-                      />
-                    </div>
-
-                    <div id="email_error" class="error">
-                      Please enter your valid E-mail ID.
-                    </div>
-                    <div>
-                      <input
-                        type="email"
-                        name="Email"
-                        id="frEmail"
-                        class="form-control"
-                        placeholder="Your Email"
-                        required
-                      />
-                    </div>
-
-                    <br />
-                  </div>
-                  <br /><br />
-                  <div class="col-md-6">
-                    <div id="message_error" class="error">
-                      Please enter your message.
-                    </div>
-                    <div>
-                      <textarea
-                        name="message"
-                        id="frMsg"
-                        class="form-control"
-                        placeholder="Your Message"
-                        required
-                      ></textarea>
-                    </div>
-                  </div>
-
-
-                  <div class="col-md-12">
-                    <div
-                      class="g-recaptcha"
-                      data-sitekey="6LfHDjsdAAAAANyZQJeyAUNIjTPCB-5PodXpdloe"
-                    ></div>
-                    <p onclick="sendOtherMail()" id="submit" class="mt20">
-                      <input
-                        type="submit"
-                        id="send_message"
-                        value="Submit Form"
-                        class="btn btn-line"
-                      />
-                    </p>
-                    <div id="mail_success" class="success">
-                      Your message has been sent successfully.
-                    </div>
-                    <div id="mail_fail" class="error">
-                      Sorry, error occured this time sending your message.
-                    </div>
-                  </div>
-
-
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
         <!-- logo carousel section close -->
       </div>
 
       <!-- footer begin -->
       <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <br>We provide step by step guidance to make it possible for you to attend a prestigious university.
-                    We help students in making decisions for their future studies through career counselling and help them in
-                    getting admission in the desired field.
-                </div>
-
-                <div class="col-lg-4">
-                    <h3>Apply Us</h3>
-                    <div class="widget widget-address">
-                        <address>
-                            <span>9/11, Domaniewska, Warsaw 02-663</span>
-                            <span><strong>Phone:</strong>+48 503 986 974</span> 
-                            <span><strong>Email:</strong><a href="mailto:abbottgitonga@gmail.com">abbottgitonga@gmail.com</a></span>
-                            <span><strong>Web:</strong><a href="#">http://firstlaneconsultancy.pl</a></span>
-                        </address>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="widget widget_recent_post">
-                        <h3>Our Services</h3>
-                        <ul>
-                            <li><a href="#">Document Preparation</a></li>
-                            <li><a href="#">Visa Application</a></li>
-                            <li><a href="#">Visa Appointment</a></li>
-                            <li><a href="#">Book Your Accommodation</a></li>
-                        </ul>
-                    </div>
-                </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <br />We provide step by step guidance to make it possible for you
+              to attend a prestigious university. We help students in making
+              decisions for their future studies through career counselling and
+              help them in getting admission in the desired field.
             </div>
+
+            <div class="col-lg-4">
+              <h3>Contact Us</h3>
+              <div class="widget widget-address">
+                <address>
+                  <span>9/11, Domaniewska, Warsaw 02-663</span>
+                  <span><strong>Phone:</strong>+48 503 986 974</span>
+                  <span
+                    ><strong>Email:</strong
+                    ><a href="mailto:admin@firstlaneconsultancy.pl"
+                      >admin@firstlaneconsultancy.pl</a
+                    ></span
+                  >
+                  <span
+                    ><strong>Web:</strong
+                    ><a href="#">https://firstlaneconsultancy.pl</a></span
+                  >
+                </address>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="widget widget_recent_post">
+                <h3>Our Services</h3>
+                <ul>
+                  <li><a href="#">Document Preparation</a></li>
+                  <li><a href="#">Visa Application</a></li>
+                  <li><a href="#">Visa Appointment</a></li>
+                  <li><a href="#">Book Your Accommodation</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div class="subfooter">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        &copy; Copyright 2022 - Firstlane Consultancy by <span class="id-color">Muray Innovations</span>
-                    </div>
-                    <!-- <div class="col-md-6 text-right">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                &copy; Copyright 2022 - Firstlane Consultancy by
+                <span class="id-color">Muray Innovations</span>
+              </div>
+              <!-- <div class="col-md-6 text-right">
                         <div class="social-icons">
                             <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
                             <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
@@ -1109,12 +1629,12 @@
                             <a href="#"><i class="fa fa-skype fa-lg"></i></a>
                             <a href="#"><i class="fa fa-dribbble fa-lg"></i></a>
                         </div>
-                    </div> --> 
-                </div>
+                    </div> -->
             </div>
+          </div>
         </div>
         <a href="#" id="back-to-top"></a>
-    </footer>
+      </footer>
       <!-- footer close -->
     </div>
 
@@ -1129,19 +1649,33 @@
 
     <script>
       var my_modal = document.getElementById("my_modal");
-      function showModal(){
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+      function showModal() {
         my_modal.style.display = "block";
       }
 
       //Show modal after 1 second
-      setTimeout(showModal, 7000)
+      setTimeout(showModal, 5000);
 
-      //now close
-      function closeModal(){
-        my_modal.style.display = "none";
-      }
+      // //now close
+      // function closeModal(){
+      //   my_modal.style.display = "none";
+      // }
 
-      setTimeout(closeModal, 5000)
+      window.onclick = function (event) {
+        if (event.target == my_modal) {
+          my_modal.style.display = "none";
+        }
+      };
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+      };
+
+      // setTimeout(closeModal, 10000)
     </script>
   </body>
 </html>

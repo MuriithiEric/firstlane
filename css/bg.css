@@ -75,6 +75,18 @@
 #section-about-us-10 .image-container {
   background: url(../images/background/wroclaw.jpg);
 }
+#section-about-us-11 .image-container {
+  background: url(https://warsawtour.pl/wp-content/uploads/2018/08/Museum-of-King-Jan-IIIs-Palace-at-Wilanow_fot.-Piotr-Wierzbowski.jpg);
+}
+#section-about-us-12 .image-container {
+  background: url(https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/33/a5/3a.jpg);
+}
+#section-about-us-13 .image-container {
+  background: url(https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/3e/8a/6c.jpg);
+}
+#section-about-us-14 .image-container {
+  background: url(../images/background/fountain.jpg);
+}
 #section-welcome-5 {
   background: url(../images/background/bg-14.jpg) top fixed;
 }
