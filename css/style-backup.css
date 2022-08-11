@@ -11,7 +11,7 @@
 * sidebar
 * blog
 * products
-* Apply
+* contact
 * coming soon page
 * elements
 	* address
@@ -1686,7 +1686,7 @@ border:solid 1px #ddd;
 }	
 	
 /* ================================================== */
-/* Apply form */
+/* contact form */
 /* ================================================== */
 	.error {
 	padding:20px;
@@ -1710,11 +1710,11 @@ border:solid 1px #ddd;
 	width: 98%;
 	}
 
-	#Apply_form{
+	#contact_form{
 	margin-top:20px;
 	}
 	
-	#Apply_form input[type=text],#Apply_form textarea,#Apply_form input[type=email],#Apply_form input[type=number],#search{
+	#contact_form input[type=text],#contact_form textarea,#contact_form input[type=email],#contact_form input[type=number],#search{
 	padding:10px;
 	margin-bottom:20px;
 	color:#fff;
@@ -1724,7 +1724,7 @@ border:solid 1px #ddd;
 	height:auto;
 	}
 
-	.de_light #Apply_form input[type=text],.de_light #Apply_form textarea,.de_light #Apply_form input[type=email], .de_light #search
+	.de_light #contact_form input[type=text],.de_light #contact_form textarea,.de_light #contact_form input[type=email], .de_light #search
 		{
 		border:solid 1px #ddd;
 		background:#f5f5f5;	
@@ -1734,21 +1734,21 @@ border:solid 1px #ddd;
 	
 	
 	
-	#Apply_form input[placeholder],#Apply_form textarea[placeholder]{
+	#contact_form input[placeholder],#contact_form textarea[placeholder]{
 	color:#eee;
 	}
 	
-	#Apply_form input[type=submit].btn-line{
+	#contact_form input[type=submit].btn-line{
 	background:none;
 	padding:8px 20px;
 	}
 	
-	#Apply_form input[type=submit].btn-line:hover{
+	#contact_form input[type=submit].btn-line:hover{
 	background:#111;
 	border-color:#111;
 	}
 	
-	#Apply_form textarea{
+	#contact_form textarea{
 	height:178px;
 	}
 	
@@ -4227,20 +4227,20 @@ border:solid 1px #ddd;
 		top:0;
 	}
 	
-	.de-team-Apply{
+	.de-team-contact{
 		text-align:center;
 	}
 	
-	.de-team-Apply h3{
+	.de-team-contact h3{
 		margin-bottom:10px;
 	}
 	
-	.de-team-Apply img{
+	.de-team-contact img{
 		width:60%;
 		margin-bottom:30px;
 	}
 	
-	.de-team-Apply.s2 img{
+	.de-team-contact.s2 img{
 		width:90%;
 	}
 	
@@ -4342,8 +4342,8 @@ de_tab .de_nav li span,
 .de-gallery .overlay .icon i,
 .de-gallery .overlay .icon i:hover,
 header.smaller:not(.header-bottom),
-#Apply_form input[type=submit],
-#Apply_form input[type=submit]:hover,
+#contact_form input[type=submit],
+#contact_form input[type=submit]:hover,
 .product img,
 .product img:hover,
 .mfp-close,.mfp-close:hover,
@@ -4877,12 +4877,12 @@ transition: .3s;
 
 
 
-.de_Apply_info{
+.de_contact_info{
 font-size:40px;
 font-weight:bold;
 }
 
-.de_Apply_info i{
+.de_contact_info i{
 float:none;
 margin-right:20px;
 }
