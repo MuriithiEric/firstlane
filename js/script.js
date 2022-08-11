@@ -5,21 +5,24 @@ function sendMail() {
     message: document.getElementById("msg").value,
     phone: document.getElementById("fromPhone").value,
 
-    fundingone: document.getElementById("fundingme").value,
-    // fundingtwo: document.getElementById("fundingrents").value,
-    // fundingthree: document.getElementById("fundingscho").value,
+    funding_one: document.getElementById("fundingme").value,
+    fundingtwo: document.getElementById("fundingrents").value,
+    fundingthree: document.getElementById("fundingscho").value,
 
     levelone: document.getElementById("foundation").value,
-    // leveltwo: document.getElementById("undergrad").value,
-    // levelthree: document.getElementById("postgrad").value,
+    leveltwo: document.getElementById("undergrad").value,
+    levelthree: document.getElementById("postgrad").value,
 
     passportone: document.getElementById("yespassport").value,
-    // passporttwo: document.getElementById("nopassport").value,
+    passporttwo: document.getElementById("nopassport").value,
+    course: document.getElementById("courseid").value,
+    file: document.getElementById("myfile").value,
   };
 
   emailjs
-    .send("service_qrhnqpq", "template_xa3ml6k", tempParams)
+    .send("service_qrhnqpq", "template_2dmfqz7", tempParams)
     .then(function (response) {
+      alert("Message sent!");
       console.log("SUCCESS!", response.status, response.text);
     });
 }

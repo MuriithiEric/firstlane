@@ -2,6 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <link
+      rel="icon"
+      href="images/background/fldone.png"
+      type="image/gif"
+      sizes="16x16"
+    />
     <title>Firstlane Consultancy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
@@ -78,6 +84,13 @@
     <!-- custom font -->
     <link rel="stylesheet" href="css/font-style-2.css" type="text/css" />
     <script type="text/javascript" src="js/script.js"></script>
+    <!-- Poptin Code to show a popup after a couple of seconds -->
+    <script
+      id="pixel-script-poptin"
+      src="https://cdn.popt.in/pixel.js?id=6d2026f4ea678"
+      async="true"
+    ></script>
+    <!-- end of Poptin Code to show a popup after a couple of seconds -->
     <!-- Email JS code -->
 
     <script
@@ -107,7 +120,9 @@
                 </div>
                 <div class="column">
                   Toll Free
-                  <span class="id-color"><strong>+48 503 986 974</strong></span>
+                  <span class="id-color"
+                    ><strong>+48 573 061 597 </strong></span
+                  >
                 </div>
                 <!-- social icons -->
                 <div class="column social">
@@ -339,7 +354,12 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8">
-              <form name="contactForm" id="contact_form" method="post">
+              <form
+                action="https://formsubmit.co/7af339dd78a65e7f1830c5fbcc48464a"
+                name="contactForm"
+                id="contact_form"
+                method="post"
+              >
                 <div class="row">
                   <div class="col-md-12 mb10">
                     <h3>Send Us Message</h3>
@@ -388,12 +408,27 @@
                     </div>
                     <div>
                       Who will be funding your studies?<br />
-                      <input type="radio" name="fundingone" id="fundingme" />
-                      Myself
-                      <input type="radio" name="fundingtwo" id="fundingrents" />
-                      Parents
                       <input
                         type="radio"
+                        value="Myself"
+                        name="fundingone"
+                        id="fundingme"
+                      />
+                      Myself
+                    </div>
+                    <div>
+                      <input
+                        type="radio"
+                        value="Parents"
+                        name="fundingtwo"
+                        id="fundingrents"
+                      />
+                      Parents
+                    </div>
+                    <div>
+                      <input
+                        type="radio"
+                        value="Scholarship"
                         name="fundingthree"
                         id="fundingscho"
                       />
@@ -402,11 +437,30 @@
                     <br /><br />
                     <div>
                       What level of education are you looking into?<br />
-                      <input type="radio" name="levelone" id="foundation" />
+                      <input
+                        type="radio"
+                        value="Foundation"
+                        name="levelone"
+                        id="foundation"
+                      />
                       Foundation
-                      <input type="radio" name="leveltwo" id="undergrad" />
+                    </div>
+                    <div>
+                      <input
+                        type="radio"
+                        value="Undergraduate"
+                        name="leveltwo"
+                        id="undergrad"
+                      />
                       Undergraduate
-                      <input type="radio" name="levelthree" id="postgrad" />
+                    </div>
+                    <div>
+                      <input
+                        type="radio"
+                        value="PostGraduate"
+                        name="levelthree"
+                        id="postgrad"
+                      />
                       Post Graduate
                     </div>
                     <br /><br />
@@ -414,12 +468,16 @@
                       Have you got a valid passport?<br />
                       <input
                         type="checkbox"
+                        value="Yes"
                         name="passportone"
                         id="yespassport"
                       />
                       Yes
+                    </div>
+                    <div>
                       <input
                         type="checkbox"
+                        value="No"
                         name="passporttwo"
                         id="nopassport"
                       />
@@ -428,7 +486,7 @@
                     <br /><br />
                     <div>
                       If yes, please upload a scanned copy of your passport.<br />
-                      <input type="file" id="myfile" name="myfile" />
+                      <input type="file" id="myfile" name="myfile" size="30" />
                     </div>
                     <br />
                   </div>
@@ -454,8 +512,8 @@
                     </div>
                     <div>
                       <textarea
-                        name="message"
-                        id="msg"
+                        name="course"
+                        id="courseid"
                         class="form-control"
                         placeholder="What is your course of interest?"
                         required
@@ -558,7 +616,7 @@
               <div class="widget widget-address">
                 <address>
                   <span>9/11, Domaniewska, Warsaw 02-663</span>
-                  <span><strong>Phone:</strong>+48 503 986 974</span>
+                  <span><strong>Phone:</strong>+48 573 061 597 </span>
                   <span
                     ><strong>Email:</strong
                     ><a href="mailto:admin@firstlaneconsultancy.pl"
