@@ -4177,6 +4177,10 @@ border:solid 1px #ddd;
 	
 	.de-team-list img{
 		width:100%;
+		height: 150px;
+		margin-bottom: 15px;
+		background-size: cover; /* cover the image to the card */
+		border-radius: 15px 15px 0 0; /* gives us some nice, rounded corners on the card */
 	}
 	
 	.de-team-list .team-desc{
